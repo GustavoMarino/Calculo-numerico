@@ -18,7 +18,7 @@ escolha = st.sidebar.radio("Escolha a questão", questoes)
 if escolha == "Questão 1":
     st.header("Questão 1: Interpolação de Lagrange")
     st.markdown("""
-    **Enunciado:**
+    **Questão 1:**
     Encontre a raiz da função \(y(x)\) dada pelos pontos abaixo. Use interpolação de Lagrange sobre:
     (a) três pontos consecutivos, e (b) quatro pontos consecutivos.
 
@@ -46,7 +46,7 @@ if escolha == "Questão 1":
 elif escolha == "Questão 2":
     st.header("Questão 2: Polinômio interpolador grau ≤ 2")
     st.markdown("""
-    **Enunciado:**
+    **Questão 2:**
     Encontre um polinômio \(p\) de grau no máximo 2 que satisfaça:
     \(p(-1) = -32\), \(p(2) = 1\), \(p(4) = 3\)
 
@@ -68,7 +68,7 @@ elif escolha == "Questão 2":
 elif escolha == "Questão 3":
     st.header("Questão 3: Ajuste Exponencial por Mínimos Quadrados")
     st.markdown("""
-    **Enunciado:**
+    **Questão 3:**
     Com os mesmos dados da questão anterior, encontre um modelo exponencial \(y = ae^{bx}\) que melhor se ajuste aos dados usando o método dos mínimos quadrados.
 
     **Explicação:**
@@ -96,10 +96,10 @@ elif escolha == "Questão 3":
 elif escolha == "Questão 4 e 5":
     st.header("Questões 4 e 5: Integração Numérica - Trapézios e Simpson")
     st.markdown("""
-    **Enunciado (Q4):**
+    **Questão 4:**
     Seja \(f(x) = \frac{(x - 2)^2}{(x + 3)^3}\). Estime \(A = \int_0^1 f(x)\,dx\) pela regra dos trapézios e pela regra de Simpson usando os valores tabelados.
 
-    **Enunciado (Q5):**
+    **Questão 5:**
     Utilize a fórmula teórica do erro da regra dos trapézios para estimar o erro cometido ao calcular a integral da questão anterior.
 
     **Explicação:**
@@ -119,7 +119,7 @@ elif escolha == "Questão 4 e 5":
 elif escolha == "Questão 6":
     st.header("Questão 6: Integração no intervalo [0, 1.75]")
     st.markdown("""
-    **Enunciado:**
+    **Questão 6:**
     Calcule novamente a integral anterior, agora no intervalo de \([0, 1.75]\). Compare os resultados da regra dos trapézios e de Simpson. Use os valores tabelados.
 
     **Explicação:**
@@ -139,13 +139,13 @@ elif escolha == "Questão 6":
 elif escolha == "Questões 7, 8 e 9":
     st.header("Questões 7, 8 e 9: EDO com Euler e RK2")
     st.markdown("""
-    **Enunciado (Q7):**
+    **Questão 7:**
     Considere a EDO \(y' = -2xy^2\), com \(y(0) = 1\). Estime a solução numérica no intervalo \([0, 1]\) usando o método de Euler com \(h = 0.1\).
 
-    **Enunciado (Q8):**
+    **Questão 8:**
     Resolva novamente a EDO usando o método de Runge-Kutta de 2ª ordem (RK2).
 
-    **Enunciado (Q9):**
+    **Questão 9:**
     Compare graficamente as soluções obtidas por Euler e RK2 com a solução exata \(y(x) = \frac{1}{1 + x^2}\).
 
     **Explicação:**
@@ -176,7 +176,7 @@ elif escolha == "Questões 7, 8 e 9":
 elif escolha == "Questão 10":
     st.header("Questão 10: Ajuste de Modelos à População")
     st.markdown("""
-    **Enunciado:**
+    **Questão 10:**
     Considere os dados experimentais de crescimento de uma população. Ajuste um modelo adequado (linear, polinomial ou exponencial) e discuta qual representa melhor os dados. Use gráficos.
 
     | Ano | População (milhares) |

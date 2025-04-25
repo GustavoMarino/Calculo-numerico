@@ -6,14 +6,14 @@ from scipy.integrate import simpson, trapezoid
 from scipy.optimize import curve_fit
 
 st.set_page_config(layout="wide")
-st.title("Resolução de Exercícios - Cálculo Numérico com Python")
+st.title("Resolução de Exercícios - Cálculo Numérico lista 3")
 
 questoes = [
     "Questão 1", "Questão 2", "Questão 3", "Questão 4 e 5",
     "Questão 6", "Questões 7, 8 e 9", "Questão 10"
 ]
 
-escolha = st.sidebar.radio("Escolha a questão", questoes)
+escolha = st.sidebar.radio("Lista 3:", questoes)
 
 if escolha == "Questão 1":
     st.header("Questão 1: Interpolação de Lagrange")
